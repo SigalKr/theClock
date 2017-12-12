@@ -1,0 +1,26 @@
+{
+  "name": "clock-showcase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "rimraf dist && webpack -p --colors --progress",
+    "start": "serve dist -p 3000"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "serve": "^6.0.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "gsap": "^1.20.2",
+    "jquery": "^3.2.1"
+  }
+}
